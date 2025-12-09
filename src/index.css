@@ -13,6 +13,8 @@
   --shadow-card: 0 4px 8px rgba(0, 0, 0, 0.08);
 }
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 * {
   box-sizing: border-box;
 }
@@ -31,7 +33,7 @@ body {
   background-color: #f9fafb;
 }
 
-.dark body {
+html.dark body {
   background-color: #111827;
 }
 

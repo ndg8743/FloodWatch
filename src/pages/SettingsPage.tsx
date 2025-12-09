@@ -40,8 +40,8 @@ export function SettingsPage() {
       <main className="p-4 space-y-4">
         <Card>
           <div className="flex items-center gap-3 mb-3">
-            <Moon className="w-5 h-5 text-gray-500" />
-            <p className="font-medium">Appearance</p>
+            <Moon className="w-5 h-5 text-gray-500 dark:text-gray-400" />
+            <p className="font-medium text-gray-900 dark:text-white">Appearance</p>
           </div>
           <div className="flex gap-2">
             {themeOptions.map(({ value, label, icon: Icon }) => (
@@ -73,10 +73,10 @@ export function SettingsPage() {
         <Card>
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <Bell className="w-5 h-5 text-gray-500" />
+              <Bell className="w-5 h-5 text-gray-500 dark:text-gray-400" />
               <div>
-                <p className="font-medium">Push Notifications</p>
-                <p className="text-sm text-gray-500">Get alerts for watched gauges</p>
+                <p className="font-medium text-gray-900 dark:text-white">Push Notifications</p>
+                <p className="text-sm text-gray-500 dark:text-gray-400">Get alerts for watched gauges</p>
               </div>
             </div>
             <button
@@ -98,10 +98,10 @@ export function SettingsPage() {
 
         <Card>
           <div className="flex items-center gap-3">
-            <Info className="w-5 h-5 text-gray-500" />
+            <Info className="w-5 h-5 text-gray-500 dark:text-gray-400" />
             <div className="flex-1">
-              <p className="font-medium">About</p>
-              <p className="text-sm text-gray-500">FloodWatch v1.0.0</p>
+              <p className="font-medium text-gray-900 dark:text-white">About</p>
+              <p className="text-sm text-gray-500 dark:text-gray-400">FloodWatch v1.0.0</p>
             </div>
           </div>
         </Card>
