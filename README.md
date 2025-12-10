@@ -43,6 +43,19 @@ npm run build
 npm run preview
 ```
 
+### Docker Deployment
+
+```bash
+# Build and run with Docker Compose
+docker-compose up -d
+
+# Or build manually
+docker build -t floodwatch .
+docker run -d -p 3000:80 floodwatch
+```
+
+Access at http://localhost:3000
+
 ## Project Structure
 
 ```
