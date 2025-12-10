@@ -1,6 +1,6 @@
 export const API_URLS = {
   USGS_BASE: "https://waterservices.usgs.gov/nwis/iv/",
-  OPEN_METEO_FLOOD: "https://api.open-meteo.com/v1/flood",
+  OPEN_METEO_FLOOD: "https://flood-api.open-meteo.com/v1/flood",
   OPEN_METEO_WEATHER: "https://api.open-meteo.com/v1/forecast",
 } as const;
 
